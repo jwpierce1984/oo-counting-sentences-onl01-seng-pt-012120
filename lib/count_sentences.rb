@@ -4,8 +4,9 @@ class String
 
   def sentence?
     self.end_with?(.)
+    begin.pry
   end
-begin.pry
+
   def question?
 
   end
